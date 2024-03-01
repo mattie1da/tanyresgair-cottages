@@ -1,0 +1,11 @@
+.wrapper {
+    background-color: var(--accent);
+    border-radius: 99rem;
+    color: white;
+    font-size: 1.2rem;
+    padding: 0.75rem 2rem;
+}
+
+.primary {
+    background-color: var(--racing-green);
+}

@@ -1,0 +1,57 @@
+.wrapper {
+    --text-color: white;
+    position: relative;
+    padding-bottom: var(--section-padding);
+    padding-top: calc(var(--section-padding) * 3);
+}
+
+.image,
+.imageOverlay {
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.image {
+    object-fit: cover;
+    z-index: 1;
+}
+
+.imageOverlay {
+    background-color: #000806;
+    opacity: 0.9;
+    z-index: 2;
+}
+
+.content {
+    color: var(--text-color);
+    position: relative;
+    z-index: 3;
+}
+
+.title {
+    font-size: 4.6rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.subtitle {
+    font-size: 1.6rem;
+    max-width: 55rem;
+}
+
+.starsWrapper {
+    align-items: center;
+    color: var(--yellow);
+    display: flex;
+    gap: 2rem;
+    font-size: 1.2rem;
+    letter-spacing: normal;
+    line-height: 1;
+}
+
+.starsWrapper p {
+    margin-top: 0.2rem;
+}

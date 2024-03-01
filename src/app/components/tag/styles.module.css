@@ -1,0 +1,17 @@
+.wrapper {
+    border-radius: 1px;
+    background-color: #E7FDE8;
+    color: #008009;
+    align-items: center;
+    display: flex;
+    gap: 0.5rem;
+    font-size: 1.2rem;
+    padding: 0.1rem 0.5rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.info {
+    background-color: #E7F8FD;
+    color: #002F2F;
+}
